@@ -1,0 +1,14 @@
+{
+  "name": "securelayer",
+  "version": "0.1.0",
+  "description": "Zero-config security layer for AI-built apps.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node examples/express-app.js",
+    "test": "node test/smoke.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
